@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Passinho do Romano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <fieldset>
+            <legend><b>Passinho do Romano</b></legend>
+            <br>
+            <br>
+            <label for codigo class="labelInput">Código</label>
+                <div class="inputBox">
+            <br>
+                <input type="text" name="caixa_texto" id="caixa_texto" class="inputUser" required>
+                </div>
+            <br>
+            <br>
+            <label for criptografia class="labelInput">Criptografia:</label>
+            <br>
+            <br>
+            <div class="inputBox">
+                <label for codigo class="labelInput">Base 64</label>
+                <input type="radio" name="cod" id="base_64" class="base_64" required>
+            </div>
+            <br>
+                <div class="inputBox">
+                    <label for cifra_de_cesar class="labelInput">Cifra de César</label>
+                    <input type="radio" name="cod" id="cifra_de_cesar" class="cifra_de_cesar" required>
+                </div>
+            <br>
+            <br>
+                <label for codigo class="labelInput">Escolha:</label>
+            <br>
+            <br>
+                <div class="inputBox">
+                    <label for codigo class="labelInput">Codificar</label>
+                    <input type="radio" name="codificar_decodificar" id="codificar" class="codificar" required>
+                </div>
+            <br>
+                <div class="inputBox">
+                    <label for cifra_de_cesar class="labelInput">Decodificar</label>
+                    <input type="radio" name="codificar_decodificar" id="decodificar" class="decodificar" required>
+            <br>
+            <br>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            <br>
+            <br>
+                    <label for codigo class="labelInput">Resposta:</label>
+                <div class="inputBox">
+            <br>
+                    <input type="text" name="resposta" id="resposta" class="inputUser">
+                </div>
+        </fieldset>
+    </div>
+    
+</body>
+</html>
